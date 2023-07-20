@@ -1,0 +1,34 @@
+﻿  Validating sources
+  Copying sources remotely to 'hydro-labo.dyndns.org'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.c
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(18,22): warning : implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(18,22): warning :    18 |    char* inputFile = malloc(100 * sizeof(char));
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(18,22): warning :       |                      ^~~~~~
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(18,22): warning : incompatible implicit declaration of built-in function ‘malloc’
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(5,1): message : include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(5,1): message :     4 | #include <string.h>
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(5,1): message :   +++ |+#include <stdlib.h>
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(5,1): message :     5 |
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(83,16): warning : conversion from ‘int’ to ‘short unsigned int’ may change value [-Wconversion]
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(83,16): warning :    83 |       nfield = c2 << 8 | c1;
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(83,16): warning :       |                ^~
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(166,11): warning : unused variable ‘hMSLtmp’ [-Wunused-variable]
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(166,11): warning :   166 |       int hMSLtmp = c4 << 24 | c3 << 16 | c2 << 8 | c1;
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(166,11): warning :       |           ^~~~~~~
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(159,14): warning : unused variable ‘height’ [-Wunused-variable]
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(159,14): warning :   159 |       double height = (double)heighttmp / 1000;
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(159,14): warning :       |              ^~~~~~
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(130,11): warning : unused variable ‘nbits_skip’ [-Wunused-variable]
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(130,11): warning :   130 |       int nbits_skip = 4 + 2 + 1 + 1 + 1 + 1 + 1 + 1 + 4 + 4 + 1 + 1 + 1 + 1;
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(130,11): warning :       |           ^~~~~~~~~~
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(220,4): warning : implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(220,4): warning :   220 |    free(inputFile);
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(220,4): warning :       |    ^~~~
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(220,4): warning : incompatible implicit declaration of built-in function ‘free’
+C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\main.c(220,4): message : include ‘<stdlib.h>’ or provide a declaration of ‘free’
+  Linking objects
+  Parse_u-blox.vcxproj -> C:\Users\cleme\Documents\Codes\Sensors\GPS\Parse_u-blox\bin\ARM\Debug\Parse_u-blox.exe

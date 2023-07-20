@@ -1,0 +1,1 @@
+g++ -o "/home/pi/GNSS/Parse_u-blox/bin/ARM/Debug/Parse_u-blox.exe" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack "/home/pi/GNSS/Parse_u-blox/obj/ARM/Debug/main.o"
